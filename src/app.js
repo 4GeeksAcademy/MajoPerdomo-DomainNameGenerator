@@ -6,6 +6,12 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+  const name = ["caracas", "edimburgh", "Madrid"];
+  const domain = [".com", ".uk", ".es"];
+
+  name.forEach(el => {
+    domain.forEach(el2 => {
+      console.log(el + el2);
+    });
+  });
 };
